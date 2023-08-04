@@ -1,6 +1,6 @@
 // tailwind.config.js
 module.exports = {
-  content: ['./src/**/*.{html.js}'],
+  // content: ['./src/**/*.{html.js}'],
   purge: [],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -9,5 +9,6 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [ require('flowbite/plugin')
+],
 };

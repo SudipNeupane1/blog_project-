@@ -1,8 +1,4 @@
-/* src/index.css */
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
-/* Add any other custom CSS imports here */
-/* For example: */
-/* @import './custom.css'; */

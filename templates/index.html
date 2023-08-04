@@ -1,8 +1,10 @@
 <!-- templates/index.html -->
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <title>My Blog App</title>
+    <link href="{% static 'my-blog-app/tailwind.css' %}" rel="stylesheet">
 </head>
 <body>
     <div id="root">
@@ -12,7 +14,7 @@
         
     </div>
     {% load static %}
-    <script src="{% static 'main.js' %}"></script>
+    <script src="{% static 'my-blog-app/main.js' %}"></script>
 </body>
 </html>
 
